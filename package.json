@@ -1,0 +1,26 @@
+{
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
+  "name": "up-client",
+  "description": "Node.js client for the (unofficial) Jawbone UP API",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thisandagain/up-client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisandagain/up-client.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "cork": "~0.0.1"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "codebux": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
